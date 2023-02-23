@@ -21,8 +21,6 @@ El proyecto de Machine Learning constará de lo siguiente:
 - Enlaces a los recursos utilizados.
 - Una presentación PDF y un vídeo explicativo del proyecto.
 
-Tuvimos más propuestas para el proyecto como algo relacionado con series, películas o videojuegos, entre otros. Sin embargo nos decantamos por este finalmente, ya que pensamos que puede resultar más provechoso que los anteriores.
-
 ### 2. Obtención de datos
 ### 3. Descripción de los datos
 ### 4. Exploración y visualización de los datos
