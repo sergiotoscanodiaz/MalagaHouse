@@ -1,14 +1,14 @@
-# MalagaHouse *(Título provisional)*
+# MalagaHouse*
 
 ## Trabajo Fin de Máster FP en IA y Big Data
 
 *Trabajo realizado por Miguel Gámez Ruiz y Sergio Toscano Díaz*
 
-1. Justificación y descripción del proyecto.
+### 1. Justificación y descripción del proyecto.
 
 Justificación:
 
-Hemos decidido hacer un proyecto en el que se pueda obtener el precio de las viviendas en Málaga (u otro destino si no es posible) de una forma rápida. Pensamos que puede ser útil para quiénes buscan un lugar para vivir aquí en Málaga. 
+Hemos decidido hacer un proyecto en el que se pueda obtener el precio de las viviendas en Málaga de una forma rápida. Pensamos que puede ser útil para quiénes buscan un lugar para vivir aquí en Málaga. 
 De esta manera, el cliente podrá ver qué presupuesto necesitará para comprar o vender según el tipo de vivienda que esté buscando o vendiendo. 
 Usamos datos reales para que el cliente tenga una estimación más acertada del precio.
 
@@ -22,3 +22,12 @@ El proyecto de Machine Learning constará de lo siguiente:
 - Una presentación PDF y un vídeo explicativo del proyecto.
 
 Tuvimos más propuestas para el proyecto como algo relacionado con series, películas o videojuegos, entre otros. Sin embargo nos decantamos por este finalmente, ya que pensamos que puede resultar más provechoso que los anteriores.
+
+### 2. Obtención de datos
+### 3. Descripción de los datos
+### 4. Exploración y visualización de los datos
+### 5. Limpieza de datos y Preparación de los datos para los algoritmos de Machine Learning
+### 6. Entrenamiento del modelo y comprobación del rendimiento
+### 7. Aplicación de Procesamiento de Lenguaje Natural
+### 8. Enlace a la aplicación web
+### 9. Conclusiones
