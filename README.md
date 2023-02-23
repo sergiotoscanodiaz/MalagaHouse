@@ -1,4 +1,4 @@
-# MalagaHouse*
+# **MalagaHouse**
 
 ## Trabajo Fin de Máster FP en IA y Big Data
 
