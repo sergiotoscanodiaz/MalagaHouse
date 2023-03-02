@@ -24,7 +24,7 @@ El proyecto de Machine Learning constará de lo siguiente:
 ### 2. Obtención de datos
 
 Usamos Scrapping para obtener los datos de las viviviendas de Málaga Capital.
-Ver el cuaderno Scrapping MalagaHouse.
+Ver el cuaderno ScrappingHousing.
 
 ### Descripción de los datos
 
