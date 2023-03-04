@@ -4,8 +4,8 @@ import pandas as pd
 import joblib
 
 st.set_page_config(layout="wide")
-image = Image.open('malaga.jpg')
-st.image(image, width = 600)
+#image = Image.open('malaga.jpg')
+#st.image(image, width = 600)
 
 st.header("MalagaHouse")
 st.text("Trabajo Fin de Máster FP en IA y Big Data realizado por Miguel Gámez Ruiz y Sergio Toscano Díaz")
