@@ -51,4 +51,7 @@ En el dataset que hemos generado con scrapping tenemos los siguientes campos:
 ### 5. Entrenamiento del modelo y comprobación del rendimiento
 ### 6. Aplicación de Procesamiento de Lenguaje Natural
 ### 7. Enlace a la aplicación web
+
+https://sergiotoscanodiaz-malagahouse-app-cm5o0s.streamlit.app/
+
 ### 8. Conclusiones
