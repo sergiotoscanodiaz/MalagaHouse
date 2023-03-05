@@ -58,25 +58,25 @@ En este paso exploramos y visualizamos los datos que hemos obtenido:
 
 *En esta imagen se ven algunas filas*
 
-![head](./images/head.PNG)
+![head](./images/head.png)
 
 *Una gráfica que muestra cuántas viviendas hay en cada zona*
 
-![barh](./images/zonas-barh.PNG)
+![barh](./images/zonas-barh.png)
 
 ### 4. Limpieza de datos y Preparación de los datos para los algoritmos de Machine Learning
 
 Lo que realizamos en este paso es una limpieza del dataset para poder prepararlo para los algoritmos de Machine Learning.
 Por ejemplo, observamos que la columna *Precio* es de tipo *object*, porque hay varias filas en la que es igual a *"A consultar"*. 
 
-![precio](./images/precio-consultar.PNG)
+![precio](./images/precio-consultar.png)
 
 Lo que hacemos es borrarlas para convertirlas en un dato numérico. Para ver cómo se realiza ver el cuaderno Jupyter [MalagaHouse](https://github.com/sergiotoscanodiaz/MalagaHouse/blob/main/MalagaHouse.ipynb).
 Además, vemos algunas filas que tienen valores nulos; convertimos las categorías *Zona* y *Tipo* a tipo numérico, ya que los algoritmos trabajan mejor con números; y decidimos eliminar la columna *Descripción*.
 
 Una vez hicimos la limpieza, creamos la matriz de correlaciones entre las categorías.
 
-![heatmap](./images/heatmap.PNG)
+![heatmap](./images/heatmap.png)
 
 ### 5. Entrenamiento del modelo y comprobación del rendimiento
 
@@ -91,7 +91,7 @@ Para comprobar el rendimiento, usamos varios algoritmos como *LinearRegression*,
 La aplicación se ha realizado con la tecnología Docker en Visual Studio Code y se ha subido al framework Streamlit:
 Visitar [MalagaHouse Streamlit App](https://sergiotoscanodiaz-malagahouse-app-cm5o0s.streamlit.app/) para hacer predicciones de los precios de las viviendas.
 
-![streamlit](./images/streamlit.PNG)
+![streamlit](./images/streamlit.png)
 
 ### 8. Conclusiones
 
