@@ -26,16 +26,16 @@ with col1:
     bath = st.number_input('Introduzca los baños', 1,15)
 # Column 2: selectboxes for garage, storage, lift and terrace
 with col2:
-    garage = st.selectbox('¿Tiene garaje?', ['Sí','No'])
-    storage = st.selectbox('¿Tiene trastero?', ['Sí','No'])
-    lift = st.selectbox('¿Tiene ascensor?', ['Sí','No'])
-    terrace = st.selectbox('¿Tiene terraza?', ['Sí','No'])
+    garage = st.selectbox('¿Tiene garaje?', ['No','Sí'])
+    storage = st.selectbox('¿Tiene trastero?', ['No','Sí'])
+    lift = st.selectbox('¿Tiene ascensor?', ['No','Sí'])
+    terrace = st.selectbox('¿Tiene terraza?', ['No','Sí'])
 # Column 3: selectboxes for furniture, chimney, pool and garden
 with col3:
-    furniture = st.selectbox('¿Tiene amueblado?', ['Sí','No'])
-    chimney = st.selectbox('¿Tiene chimenea?', ['Sí','No'])
-    pool = st.selectbox('¿Tiene piscina?', ['Sí','No'])
-    garden = st.selectbox('¿Tiene jardín?', ['Sí','No'])
+    furniture = st.selectbox('¿Tiene amueblado?', ['No','Sí'])
+    chimney = st.selectbox('¿Tiene chimenea?', ['No','Sí'])
+    pool = st.selectbox('¿Tiene piscina?', ['No','Sí'])
+    garden = st.selectbox('¿Tiene jardín?', ['No','Sí'])
 
 # Slider for surface area input
 surface = st.slider('Introduzca la superficie', 1,1000)
@@ -55,7 +55,7 @@ if st.button("¿Cuánto costará?", key="main_button"):
     # Replace categorical variables with numerical values
     X = X.replace(['Bailén-Miraflores', 'Centro', 'Este', 'Ciudad Jardín', 'Carretera de Cádiz', 'Teatinos-Universidad', 'Churriana', 'La Rosaleda-La Roca', 'Cruz de Humilladero', 'Campanillas', 'Puerto de la Torre'],[0,1,2,3,4,5,6,7,8,9,10])
     X = X.replace(['Piso', 'Ático', 'Dúplex', 'Casa', 'Chalet', 'Finca rútica', 'Estudio', 'Loft'],[0,1,2,3,4,5,6,7])
-    X = X.replace(["Sí", "No"], [1, 0])
+    X = X.replace(["No", "Sí"], [0, 1])
     # Generates a prediction for the price of the house and display it. 
     prediction = houses_model.predict(X)[0]
     st.text(f"Esta vivienda se estima que costará {prediction} €")
