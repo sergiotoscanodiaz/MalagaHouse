@@ -6,11 +6,26 @@
 
 ![malaga](malaga.jpg)
 
-### Cuaderno MalagaHouse
+### Cuaderno MalagaHouse:
 Ver el cuaderno Jupyter [MalagaHouse](https://github.com/sergiotoscanodiaz/MalagaHouse/blob/main/MalagaHouse.ipynb) si desea visualizar paso a paso el proyecto completo.
 
-### Presentación PDF
+### Presentación PDF:
 Ver la presentación en formato PDF [MalagaHouse](https://github.com/sergiotoscanodiaz/MalagaHouse/blob/main/MALAGAHOUSE.pdf).
+
+### Enlace a la aplicación web:
+Visitar [MalagaHouse Streamlit App](https://sergiotoscanodiaz-malagahouse-app-cm5o0s.streamlit.app/) para hacer predicciones de los precios de las viviendas.
+
+### Recursos utilizados:
+
+- Temario de IA, MIA y Big Data.
+- https://docs.streamlit.io/
+- https://openai.com/blog/chatgpt
+- https://www.pisos.com/
+- https://youtu.be/D57kiTBFu3I
+
+### Vídeo:
+
+***PRÓXIMAMENTE***
 
 ### 1. Justificación y descripción del proyecto.
 
@@ -100,13 +115,5 @@ La aplicación se ha realizado con la tecnología Docker en Visual Studio Code y
 ### 8. Conclusiones
 
 Tras obtener los datos mediante scrapping, limpiarlos, explorarlos y visualizarlos mediante distintas tablas y gráficas y prepararlos para probar distintos algoritmos, hemos llegado a la conclusión de que con algoritmos como CatBoost y XGBRegressor obtenemos los mejores resultados de rendimiento. Además, hemos realizado un estudio de detección de entidades nombradas con las localizaciones más relevantes. Esto puede ser de utilidad a la hora de buscar vivienda a partir de las descripciones que nos ofrece los datos que hemos obtenido.
-
-### Recursos utilizados:
-
-- Temario de IA, MIA y Big Data.
-- https://docs.streamlit.io/
-- https://openai.com/blog/chatgpt
-- https://www.pisos.com/
-- https://youtu.be/D57kiTBFu3I
 
 ¡Si te ha gustado el repositorio, nos puedes apoyar dejando una estrella!
