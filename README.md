@@ -8,7 +8,7 @@
 
 ### Presentación PDF
 
-[MalagaHouse](https://github.com/sergiotoscanodiaz/MalagaHouse/blob/main/MALAGAHOUSE.pdf)
+Ver la presentación en formato PDF [MalagaHouse](https://github.com/sergiotoscanodiaz/MalagaHouse/blob/main/MALAGAHOUSE.pdf)
 
 ### Cuaderno MalagaHouse
 Ver el cuaderno Jupyter [MalagaHouse](https://github.com/sergiotoscanodiaz/MalagaHouse/blob/main/MalagaHouse.ipynb) si desea visualizar paso a paso el proyecto completo.
