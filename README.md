@@ -6,6 +6,10 @@
 
 ![malaga](malaga.jpg)
 
+### Presentación PDF
+
+[MalagaHouse](https://github.com/sergiotoscanodiaz/MalagaHouse/blob/main/MALAGAHOUSE.pdf)
+
 ### Cuaderno MalagaHouse
 Ver el cuaderno Jupyter [MalagaHouse](https://github.com/sergiotoscanodiaz/MalagaHouse/blob/main/MalagaHouse.ipynb) si desea visualizar paso a paso el proyecto completo.
 
@@ -84,7 +88,8 @@ Para comprobar el rendimiento, usamos varios algoritmos como *LinearRegression*,
 
 ### 6. Aplicación de Procesamiento de Lenguaje Natural
 
-***PRÓXIMAMENTE***
+Hemos decidido hacer una aplicación de detección de entidades nombradas.
+El objetivo es detectar las localizaciones más relevantes a la hora de buscar vivienda a partir de las descripciones de estas.
 
 ### 7. Enlace a la aplicación web
 
@@ -95,4 +100,12 @@ Visitar [MalagaHouse Streamlit App](https://sergiotoscanodiaz-malagahouse-app-cm
 
 ### 8. Conclusiones
 
-***PRÓXIMAMENTE***
+Tras obtener los datos mediante scrapping, limpiarlos, explorarlos y visualizarlos mediante distintas tablas y gráficas y prepararlos para probar distintos algoritmos, hemos llegado a la conclusión de que con algoritmos como CatBoost y XGBRegressor obtenemos los mejores resultados de rendimiento. Además, hemos realizado un estudio de detección de entidades nombradas con las localizaciones más relevantes. Esto puede ser de utilidad a la hora de buscar vivienda a partir de las descripciones que nos ofrece los datos que hemos obtenido.
+
+### Recursos utilizados:
+
+- Temario de IA, MIA y Big Data.
+- https://docs.streamlit.io/
+- https://openai.com/blog/chatgpt
+- https://www.pisos.com/
+- https://youtu.be/D57kiTBFu3I
