@@ -6,12 +6,11 @@
 
 ![malaga](malaga.jpg)
 
-### Presentación PDF
-
-Ver la presentación en formato PDF [MalagaHouse](https://github.com/sergiotoscanodiaz/MalagaHouse/blob/main/MALAGAHOUSE.pdf)
-
 ### Cuaderno MalagaHouse
 Ver el cuaderno Jupyter [MalagaHouse](https://github.com/sergiotoscanodiaz/MalagaHouse/blob/main/MalagaHouse.ipynb) si desea visualizar paso a paso el proyecto completo.
+
+### Presentación PDF
+Ver la presentación en formato PDF [MalagaHouse](https://github.com/sergiotoscanodiaz/MalagaHouse/blob/main/MALAGAHOUSE.pdf).
 
 ### 1. Justificación y descripción del proyecto.
 
@@ -94,7 +93,7 @@ El objetivo es detectar las localizaciones más relevantes a la hora de buscar v
 ### 7. Enlace a la aplicación web
 
 La aplicación se ha realizado con la tecnología Docker en Visual Studio Code y se ha subido al framework Streamlit:
-Visitar [MalagaHouse Streamlit App](https://sergiotoscanodiaz-malagahouse-app-cm5o0s.streamlit.app/) para hacer predicciones de los precios de las viviendas.
+- Visitar [MalagaHouse Streamlit App](https://sergiotoscanodiaz-malagahouse-app-cm5o0s.streamlit.app/) para hacer predicciones de los precios de las viviendas.
 
 ![streamlit](./images/streamlit.png)
 
@@ -109,3 +108,5 @@ Tras obtener los datos mediante scrapping, limpiarlos, explorarlos y visualizarl
 - https://openai.com/blog/chatgpt
 - https://www.pisos.com/
 - https://youtu.be/D57kiTBFu3I
+
+¡Si te ha gustado el repositorio, nos puedes apoyar dejando una estrella!
