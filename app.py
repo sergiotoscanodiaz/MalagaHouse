@@ -21,7 +21,7 @@ col1, col2, col3 = st.columns(3)
 # Column 1: selectbox for type of house, selectbox for zone, and number inputs for bedrooms and bathrooms
 with col1:
     category = st.selectbox('Introduzca el tipo de casa', ['Piso', 'Ático', 'Dúplex', 'Casa', 'Chalet', 'Finca rútica', 'Estudio', 'Loft'])
-    zone = st.selectbox('Introduzca el tipo de casa', ['Bailén-Miraflores', 'Centro', 'Este', 'Ciudad Jardín', 'Carretera de Cádiz', 'Teatinos-Universidad', 'La Rosaleda-La Roca', 'Cruz de Humilladero', 'Campanillas', 'Puerto de la Torre'])
+    zone = st.selectbox('Introduzca el tipo de zona', ['Bailén-Miraflores', 'Centro', 'Este', 'Ciudad Jardín', 'Carretera de Cádiz', 'Teatinos-Universidad', 'La Rosaleda-La Roca', 'Cruz de Humilladero', 'Campanillas', 'Puerto de la Torre'])
     room = st.number_input('Introduzca las habitaciones', 1,15)
     bath = st.number_input('Introduzca los baños', 1,15)
 # Column 2: selectboxes for garage, storage, lift and terrace
