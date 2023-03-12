@@ -25,7 +25,7 @@ Visitar [MalagaHouse Streamlit App](https://sergiotoscanodiaz-malagahouse-app-cm
 
 ### Vídeo:
 
-***PRÓXIMAMENTE***
+[![Alt text](https://img.youtube.com/vi/BQGcgc0NmNA/0.jpg)](https://www.youtube.com/watch?v=BQGcgc0NmNA)
 
 ### 1. Justificación y descripción del proyecto.
 
